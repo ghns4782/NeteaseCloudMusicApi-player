@@ -40,9 +40,10 @@
   ],
   "main": "main.js",
   "types": "./interface.d.ts",
-  "engines": {
-    "node": ">=12"
-  },
+"engines": {
+  "node": "14.x",
+  "yarn": ">=1.22.0"
+},
   "lint-staged": {
     "*.js": [
       "eslint --fix",
